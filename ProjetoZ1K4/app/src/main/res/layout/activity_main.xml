@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aluno.projetoz1k4.Calculadora">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNome"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/SeuNome"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnNome"/>
+
+            <Button
+                android:id="@+id/btnTriangulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Triangulo"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="TrianguloActivity"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCalculadora"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Calculadora"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnCalculadora"/>
+
+            <Button
+                android:id="@+id/btnLuz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Luz"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnLuz"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnConversor"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Conversor"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnConversor"/>
+
+            <Button
+                android:id="@+id/btnVibrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Vibrar_Lanterna"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnVibrar"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSobre"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Sobre"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnSobre"/>
+
+            <Button
+                android:id="@+id/btnAvaliar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Avaliar"
+                android:textSize="15dp"
+                android:textColor="#FFF"
+                android:background="#000"
+                android:onClick="btnAvaliar"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

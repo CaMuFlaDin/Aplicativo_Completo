@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aluno.projetoz1k4.Calculadora"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAzul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008DFF"
+                android:onClick="BotaoAzul"
+                android:text="@string/Azul"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnVerde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#33A200"
+                android:onClick="BotaoVerde"
+                android:text="@string/Verde"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnVermelho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#7B0000"
+                android:onClick="BotaoVermelho"
+                android:text="@string/Vermelho"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAmarelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#B5BF00"
+                android:onClick="BotaoAmarelo"
+                android:text="@string/Amarelo"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnLaranja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF7C00"
+                android:onClick="BotaoLaranja"
+                android:text="@string/Laranja"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnRoxo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#9A00FF"
+                android:onClick="BotaoRoxo"
+                android:text="@string/Roxo"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnMenor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000"
+                android:onClick="BotaoMenor"
+                android:text="@string/Menor"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnPadrao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000"
+                android:onClick="BotaoPadrao"
+                android:text="@string/Padrao"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnMaior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000"
+                android:onClick="BotaoMaior"
+                android:text="@string/Maior"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Lampada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="@string/Luz"
+                android:textSize="80dp" />
+
+            <Switch
+                android:id="@+id/Alternar"
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:gravity="center"
+                android:checked="true"
+                android:text="@string/Ligar_Desligar"
+                android:layout_weight="0.00" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

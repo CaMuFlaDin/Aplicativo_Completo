@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aluno.projetoz1k4">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Triangulo"
+            android:label="Triângulo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Calculadora"
+            android:label="Calculadora"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Lampada"
+            android:label="Luz"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sobre"
+            android:label="Sobre"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Nome"
+            android:label="Bom Dia"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MostrarNome"
+            android:label="Bom Dia"
+            android:parentActivityName=".Nome" />
+        <activity
+            android:name=".Avaliar"
+            android:label="Avaliar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Vibrar_Lanterna"
+            android:label="Funções"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Conversor"
+            android:label="Conversor"
+            android:parentActivityName=".MainActivity"/>
+    </application>
+
+</manifest>

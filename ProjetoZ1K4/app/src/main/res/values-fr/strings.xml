@@ -1,0 +1,109 @@
+<resources>
+    <!-- Menu Principal -->
+    <string name="app_name">Application - Luiz</string>
+    <string name="SeuNome">Bonjour  </string>
+    <string name="Triangulo">Triangle </string>
+    <string name="Calculadora">Calculatrice  </string>
+    <string name="Luz">Light  </string>
+    <string name="Sobre">À propos de </string>
+    <string name="Avaliar">Rate </string>
+
+    <!-- Calculadora -->
+    <string name="Numero1">Entrez la première valeur </string>
+    <string name="Numero2">Entrez la deuxième valeur</string>
+    <string name="Numero3">Entrez la troisième valeur</string>
+    <string name="Somar">Ajouter  </string>
+    <string name="Subtrair">Soustraire  </string>
+    <string name="Multiplicar">Multiplier </string>
+    <string name="Dividir">Split </string>
+    <string name="Calcular">Calculer  </string>
+
+    <!-- Luz -->
+    <string name="Azul">Blue </string>
+    <string name="Verde">Vert </string>
+    <string name="Vermelho">Rouge </string>
+    <string name="Amarelo">Jaune </string>
+    <string name="Laranja">Orange  </string>
+    <string name="Roxo">Purple </string>
+    <string name="Menor">Minor  </string>
+    <string name="Padrao"> Par défaut  </string>
+    <string name="Maior">Bigger  </string>
+    <string name="Ligar_Desligar">On/Off </string>
+
+    <!-- Mostrar Nome -->
+    <string name="BomDia">Bonjour  </string>
+    <string name="seuNome"> </string>
+
+    <!-- Pedir Nome -->
+    <string name="InserirNome">Entrez votre nom </string>
+    <string name="erro"> </string>
+    <string name="MostrarNome">Afficher  </string>
+
+    <!-- Conversor -->
+    <string name="Conversor">Convertisseur  </string>
+
+    <!-- Vibrar_Lanterna -->
+    <string name="Vibrar_Lanterna">Fonctions  </string>
+    <string name="Vibrar">Vibrer  </string>
+    <string name="Lanterna">Lampe de poche </string>
+
+    <!-- Avaliar -->
+    <string name="ContMemes">Devrions-nous continuer à mettre Memes? </string>
+    <string name="PrimeiraOpcao">Oui  </string>
+    <string name="SegundaOpcao">Non  </string>
+    <string name="Conhece">Qui connaissez-vous? </string>
+    <string name="Nome1">Robson </string>
+    <string name="Nome2">Jorge da Marlene </string>
+    <string name="Nome3">Hilosi Miamoto </string>
+    <string name="BtnEnviar">Envoyer  </string>
+
+    <!-- Sobre -->
+    <string name="MeuNome">Luiz Felipe </string>
+    <string name="Modulo">2º Módulo </string>
+    <string name="Senai">Senai Boqueirão </string>
+    <string name="OJogo">Le jeu </string>
+
+    <!--Referentes à activity Conversor-->
+    <string name="conversor">Convertisseur </string>
+
+    <string-array name="tipoConversor">
+        <item>Devise </item>
+        <item>Devise </item>
+        <item>Devise </item>
+        <item>Devise </item>
+        <item>Devise </item>
+    </string-array>
+    <string name="selecioneTipo">Sélectionnez le type de conversion</string>
+    <string name="selecioneUnidade">Sélectionnez l unite de conversion</string>
+    <string name="nada"> </string>
+    <string name="igual">=</string>
+
+    <string-array name="moeda">
+        <item>Real</item>
+        <item>Dollar </item>
+        <item>Euro</item>
+        <item>Yen</item>
+    </string-array>
+    <string-array name="peso">
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+    </string-array>
+    <string-array name="temperatura">
+        <item>ºC</item>
+        <item>ºF</item>
+        <item>ºK</item>
+    </string-array>
+    <string-array name="comprimento">
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>mm</item>
+    </string-array>
+    <string-array name="pressao">
+        <item>Pascal</item>
+        <item>mmHg</item>
+    </string-array>
+    <string name="confirmar">Convertir  </string>
+
+</resources>

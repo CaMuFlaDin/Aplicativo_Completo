@@ -1,0 +1,109 @@
+<resources>
+    <!-- Menu Principal -->
+    <string name="app_name">Aplicativo - Luiz</string>
+    <string name="SeuNome">Bom Dia </string>
+    <string name="Triangulo">Triângulo </string>
+    <string name="Calculadora">Calculadora </string>
+    <string name="Luz">Luz </string>
+    <string name="Sobre">Sobre </string>
+    <string name="Avaliar">Avaliar </string>
+
+    <!-- Calculadora -->
+    <string name="Numero1">Insira o primeiro valor </string>
+    <string name="Numero2">Insira o segundo valor </string>
+    <string name="Numero3">Insira o terceiro valor </string>
+    <string name="Somar">Somar </string>
+    <string name="Subtrair">Subtrair </string>
+    <string name="Multiplicar">Multiplicar </string>
+    <string name="Dividir">Dividir </string>
+    <string name="Calcular">Calcular </string>
+
+    <!-- Luz -->
+    <string name="Azul">Azul </string>
+    <string name="Verde">Verde </string>
+    <string name="Vermelho">Vermelho </string>
+    <string name="Amarelo">Amarelo </string>
+    <string name="Laranja">Laranja </string>
+    <string name="Roxo">Roxo </string>
+    <string name="Menor">Menor </string>
+    <string name="Padrao">Padrão </string>
+    <string name="Maior">Maior </string>
+    <string name="Ligar_Desligar">Ligar/Desligar </string>
+
+    <!-- Mostrar Nome -->
+    <string name="BomDia">Bom Dia </string>
+    <string name="seuNome"> </string>
+
+    <!-- Pedir Nome -->
+    <string name="InserirNome">Insira seu Nome </string>
+    <string name="erro"> </string>
+    <string name="MostrarNome">Mostrar </string>
+
+    <!-- Conversor -->
+    <string name="Conversor">Conversor </string>
+
+    <!-- Vibrar_Lanterna -->
+    <string name="Vibrar_Lanterna">Funções </string>
+    <string name="Vibrar">Vibrar </string>
+    <string name="Lanterna">Lanterna </string>
+
+    <!-- Avaliar -->
+    <string name="ContMemes">Devemos Continuar colocando Memes? </string>
+    <string name="PrimeiraOpcao">Sim </string>
+    <string name="SegundaOpcao">Não </string>
+    <string name="Conhece">Quem você conhece? </string>
+    <string name="Nome1">Robson </string>
+    <string name="Nome2">Jorge da Marlene </string>
+    <string name="Nome3">Hilosi Miamoto </string>
+    <string name="BtnEnviar">Enviar </string>
+
+    <!-- Sobre -->
+    <string name="MeuNome">Luiz Felipe </string>
+    <string name="Modulo">2º Módulo </string>
+    <string name="Senai">Senai Boqueirão </string>
+    <string name="OJogo">The Game </string>
+
+    <!--Referentes à activity Conversor-->
+    <string name="conversor">Conversor</string>
+
+    <string-array name="tipoConversor">
+        <item>Moeda</item>
+        <item>Moeda</item>
+        <item>Moeda</item>
+        <item>Moeda</item>
+        <item>Moeda</item>
+    </string-array>
+    <string name="selecioneTipo">Selecione o tipo de conversão</string>
+    <string name="selecioneUnidade">Selecione a unidade de conversão</string>
+    <string name="nada"> </string>
+    <string name="igual">=</string>
+
+    <string-array name="moeda">
+        <item>Real</item>
+        <item>Dólar</item>
+        <item>Euro</item>
+        <item>Iene</item>
+    </string-array>
+    <string-array name="peso">
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+    </string-array>
+    <string-array name="temperatura">
+        <item>ºC</item>
+        <item>ºF</item>
+        <item>ºK</item>
+    </string-array>
+    <string-array name="comprimento">
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>mm</item>
+    </string-array>
+    <string-array name="pressao">
+        <item>Pascal</item>
+        <item>mmHg</item>
+    </string-array>
+    <string name="confirmar">Converter </string>
+
+</resources>

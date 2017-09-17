@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aluno.projetoz1k4.Sobre">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:text="@string/MeuNome"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/modulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:text="@string/Modulo"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/senai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51"
+        android:gravity="center"
+        android:text="@string/Senai"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="203dp"
+        android:layout_height="204dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/vayne" />
+
+        <TextView
+            android:id="@+id/jogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="@string/OJogo"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+</LinearLayout>

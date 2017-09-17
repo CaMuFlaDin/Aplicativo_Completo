@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#000"
+            android:text="@string/Calculadora"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtNumero1"
+                android:layout_width="wrap_content"
+                android:hint="@string/Numero1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtNumero2"
+                android:layout_width="wrap_content"
+                android:hint="@string/Numero2"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnSomar"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Somar"
+                android:text="@string/Somar"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#000" />
+
+            <Button
+                android:id="@+id/btnSubtrair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:onClick="Subtrair"
+                android:text="@string/Subtrair"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#000" />
+
+            <Button
+                android:id="@+id/btnDividir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:onClick="Dividir"
+                android:text="@string/Dividir"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#000" />
+
+            <Button
+                android:id="@+id/btnMultiplicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Multiplicar"
+                android:text="@string/Multiplicar"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#000" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+</ScrollView>
